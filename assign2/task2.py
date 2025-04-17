@@ -1,5 +1,10 @@
-# Calculate the sum of numbers from 1 to 50
-total_sum = sum(range(1, 51))
+# a ----> 10 times
+sum=0
+for i in range(1,51):
+     sum += i
 
-# Display the final sum
-print("The sum of integers from 1 to 50 is:", total_sum)
+
+
+
+print('The sum of numbers from 1 to 50 is:',sum )
+     
